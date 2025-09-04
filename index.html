@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GXYMT Cheats</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#vision-x-external">Vision X External</a></li>
+        <li><a href="#unlock-all">Unlock All</a></li>
+        <li><a href="#zenith-internal">Zenith Internal</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Homepage Section -->
+  <section id="home">
+    <div class="hero">
+      <h1>Welcome to GXYMT Cheats</h1>
+      <p>Your go-to shop for gaming enhancements</p>
+    </div>
+  </section>
+
+  <!-- Vision X External Product -->
+  <section id="vision-x-external">
+    <h2>Vision X External</h2>
+    <img src="vision-x.jpg" alt="Vision X External" width="250">
+    <p>Description: Vision X External offers complete features for enhanced gaming. It provides smooth performance, customizable settings, and advanced tools designed for players who want the best experience.</p>
+    <ul>
+      <li><a href="#" class="btn" onclick="openPopup('Vision X External - 1 Day £6.70')">1 Day: £6.70</a></li>
+      <li><a href="#" class="btn" onclick="openPopup('Vision X External - 1 Week £14.89')">1 Week: £14.89</a></li>
+      <li><a href="#" class="btn" onclick="openPopup('Vision X External - 1 Month £20.85')">1 Month: £20.85</a></li>
+      <li><a href="#" class="btn" onclick="openPopup('Vision X External - Lifetime £55.85')">Lifetime: £55.85</a></li>
+    </ul>
+  </section>
+
+  <!-- Unlock All Product -->
+  <section id="unlock-all">
+    <h2>Unlock All</h2>
+    <img src="unlock-all.jpg" alt="Unlock All" width="250">
+    <p>Description: Unlock All gives you instant access to every weapon, camo, blueprint, and feature. Save hours of grinding and enjoy the game with everything unlocked right away.</p>
+    <ul>
+      <li><a href="#" class="btn" onclick="openPopup('Unlock All - 1 Day £2.97')">1 Day: £2.97</a></li>
+      <li><a href="#" class="btn" onclick="openPopup('Unlock All - 1 Week £5.95')">1 Week: £5.95</a></li>
+      <li><a href="#" class="btn" onclick="openPopup('Unlock All - 1 Month £9.68')">1 Month: £9.68</a></li>
+      <li><a href="#" class="btn" onclick="openPopup('Unlock All - Lifetime £11.17')">Lifetime: £11.17</a></li>
+    </ul>
+  </section>
+
+  <!-- Zenith Internal Product -->
+  <section id="zenith-internal">
+    <h2>Zenith Internal</h2>
+    <img src="zenith-internal.jpg" alt="Zenith Internal" width="250">
+    <p>Description: Zenith Internal includes powerful features such as advanced aiming tools, visual customization, and optimized performance settings for players who demand precision and flexibility.</p>
+    <ul>
+      <li><a href="#" class="btn" onclick="openPopup('Zenith Internal - 1 Hour £1.48')">1 Hour: £1.48</a></li>
+      <li><a href="#" class="btn" onclick="openPopup('Zenith Internal - 1 Day £3.72')">1 Day: £3.72</a></li>
+      <li><a href="#" class="btn" onclick="openPopup('Zenith Internal - 1 Week £11.17')">1 Week: £11.17</a></li>
+      <li><a href="#" class="btn" onclick="openPopup('Zenith Internal - 1 Month £18.61')">1 Month: £18.61</a></li>
+      <li><a href="#" class="btn" onclick="openPopup('Zenith Internal - 3 Months £37.24')">3 Months: £37.24</a></li>
+    </ul>
+  </section>
+
+  <!-- Popup -->
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <span class="close" onclick="closePopup()">&times;</span>
+      <h2 id="popup-title"></h2>
+      <p>To purchase this product, please follow these steps:</p>
+      <ol>
+        <li>Send the correct payment amount to <b>paypal.me/kotsunlockall</b>.</li>
+        <li>Include your <b>Discord name</b> and <b>ill send the key</b> in discord dms </li>
+        <li>After sending, wait for confirmation (usually within 5–10 minutes).</li>
+      </ol>
+      <p><i>⚠ Be sure to send the exact amount for the selected product.</i></p>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 GXYMT Cheats. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    function openPopup(productName) {
+      document.getElementById('popup-title').innerText = "Buying: " + productName;
+      document.getElementById('popup').style.display = 'block';
+    }
+    function closePopup() {
+      document.getElementById('popup').style.display = 'none';
+    }
+  </script>
+
+</body>
+</html>
